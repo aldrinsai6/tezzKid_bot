@@ -251,7 +251,7 @@ def error_callback(update: Update, context: CallbackContext):
         # handle other connection problems
     except ChatMigrated as err:u
         print("no nono5")
-        print(err)
+        print(error)
         # the chat_id of a group has changed, use e.new_chat_id instead
     except TelegramError:
         print(error)
