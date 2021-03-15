@@ -205,7 +205,7 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
-                             url="https://t.me/botzilla")
+                             url="https://t.me/botzzilla")
                      ],
                      [
                         InlineKeyboardButton(
