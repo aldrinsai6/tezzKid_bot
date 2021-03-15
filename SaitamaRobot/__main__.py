@@ -205,15 +205,15 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
-                             url="https://t.me/TG_BotZ")
+                             url="https://t.me/botzilla")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" 🔮Help ",
-                            url="https://t.me/ELIZABETHTG_bot?start=help"),
+                            url="https://t.me/Xtra_Mega_bot?start=help"),
                          InlineKeyboardButton(
                             text=" 🚴Made by 🛸 ",
-                             url="https://t.me/rosebakthan")        
+                             url="https://t.me/Father_of_all_Evils")        
                        
                      ],
                      [
@@ -249,7 +249,7 @@ def error_callback(update: Update, context: CallbackContext):
     except NetworkError:
         print("no nono4")
         # handle other connection problems
-    except ChatMigrated as err:
+    except ChatMigrated as err:u
         print("no nono5")
         print(err)
         # the chat_id of a group has changed, use e.new_chat_id instead
